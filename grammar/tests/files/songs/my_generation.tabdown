@@ -1,0 +1,149 @@
+tempo(q,192) marker(Intro) triplet(e) 4x(3: 5q)
+4x(3q)
+4x(5q)
+4x(3q)
+marker(Verse 1) 2x(3et_ 4et_ 5et 5e 5e)
+5x(3e) 5e 5q
+4x(5q)
+3q 3q 3e 3e 0q
+3e 3x(5e) 3e 3x(5e)
+3q 3e 3e 3e 5e 5q
+4x(5q)
+4x(3q)
+2x(3et_ 4et_ 5et 5e 5e)
+5x(3e) 5e 5q
+4x(5q)
+3q 3q 3e 3e 0q
+3e 3x(5e) 3e 3x(5e)
+3q 3e 3e 3e 5e 5q
+4x(5q)
+4x(3q)
+marker(Chorus) 5q 5q 5e 5e 5e 5e
+8x(3e)
+5q 5q 4x(5e)
+6x(3e) 0e 3e
+marker(Verse 2) 5q -h.
+-w
+4x(5q)
+4x(3q)
+5q -h.
+-w
+4x(5q)
+4x(3q)
+5q -h.
+-w
+4x(5q)
+4x(3q)
+5q -h.
+-w
+4x(5q)
+4x(3q)
+5q 5q 4x(5e)
+8x(3e)
+5q 5q 4x(5e)
+8x(3e)
+marker(Bass Solo) 5e 4: 3e 5e_b(/) g5e 5et 5et 3et 3: 5q
+4:3q 3:5et 3et 2:3et 3:3q 2:5q
+4x(5q)
+4x(3q)
+5e 5e 3et 2:5et 5et 3qb(/) 1:6qb(/)
+3q 2:5et 5qt 3:3q 4q
+4x(5q)
+4x(3q)
+5e 4:3e 5e_b(/) g5e 5et 5et 3et _q
+3:5et 3et 2:5et 3:3e. 2:5s_ 3q 1:6q
+4x(5q)
+4x(3q)
+5e 5e 4x(5et) 3qt 3x(3et)
+2: 3q 3q 1q 1:1e 1e
+marker(Guitar Solo) 3:5q 5q 4:3q 3:5q
+3q 3q 4x(2e)
+4x(5q)
+3q 6x(3e)
+4x(5q)
+3x(3q) 0q
+marker(Verse 3) 7q -h.
+-w
+4x(7q)
+4x(5q)
+7q -h.
+-w
+4x(7q)
+4x(5q)
+7q -h.
+-w
+4x(7q)
+4x(5q)
+7q -h.
+-w
+4x(7q)
+4x(5q)
+marker(Chorus) 7q 7q 7e 7e 7q
+4x(5q)
+7q 6x(7e)
+5q 6x(5e)
+7q 7q 7e 7e 7q
+4x(5q)
+7q 6x(7e)
+5q 4x(5e) 7e 7e
+|: 8q 8q 4x(8e)
+4x(6q) :|
+marker(Verse 4) 8q -h.
+-w
+4x(8q)
+4x(6q)
+8q -h.
+-w
+4x(8q)
+4x(6q)
+8q -h.
+-w
+4x(8q)
+4x(6q)
+8q -h.
+-w
+4x(8q)
+4x(6q)
+8q 8q 8e 8e 8q
+6q 6q 4x(6e)
+4x(8q)
+6q 6x(6e)
+4x(8q)
+4x(6q)
+4x(8q)
+6q 4x(6e) 8e 9e
+10w
+8h 2:10q 3:8q
+10q 8q 2:10q 9q
+8q 6q 1:8q 6q
+8h 3: 10q 8q
+2: 10q 9q 8q 1: 11q
+2: 8q 10q 3: 8q 10q
+_q 4: 8q 3: 10e 8e 2:10e 10e
+3: 10h 2:10q 3:8q
+_q 10q 8q 2:10q
+3: 10q 10q 8q 2:10q
+3: 10q 8q 2:10q 8q
+3: 10q 8q 2:10q 9q
+8q 4: 11q 10q 9q
+8q 3: 10q 8q 2: 10q
+8q 6x(8e)
+3: 10h 4: 8q 3:10q
+3: 8h 4: 10q 3:8q
+3: 10h 4: 8q 3:10q
+3: 8h 4: 10q 3:8q
+marker(Outro) 3: 10h 4: 8q 3:10q
+3: 8h 4: 10q 3:8q
+3: 10h 4: 8q 3:10q
+3: 8h 4: 10q 3:8q
+3: 10h 8q 2:10q
+2: 8h 1:11q 8q
+3: 10q 8q 2:10q 3: 10q
+3: 8h 4: 10q 3:8q
+|: 3: 10h 4: 8q 3:10q
+3: 8h 4: 10q 3:8q :|4x
+10h 2: 8h
+_w
+_w
+_w
+_w

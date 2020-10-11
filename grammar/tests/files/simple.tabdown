@@ -1,0 +1,9 @@
+tuning(D#2,A2,D4,G3) tempo(q,90) -h -q -i 1: 2i
+0t -h -q -i 2i
+0w 1h 2q 3e
+tempo(q,100) 2: 0w. 1h. 2q. 3e.
+3: 0t. 2i.
+4: 0w 1ht 2qt 3et
+0tt 2it
+1: 0w.t 1h.t 2q.t 3e.t
+0t.t 2i.t

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="mdc-layout-grid__cell--span-12">
+        <h1>Edit Song</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Update"/>
+            <input type="button" value="Refresh" onclick="update();">
+        </form>
+    </div>
+
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="tablature_wrapper">
+            <div id="tablature">
+            </div>
+        </div>
+    </div>
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="tuning"></div>
+    </div>
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="editor"></div>
+    </div>
+    <div class="mdc-layout-grid__cell--span-12">
+        <pre id="error"></pre>
+    </div>
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+{% endblock content %}

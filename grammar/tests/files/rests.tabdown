@@ -1,0 +1,12 @@
+-w
+-h -h
+-q -q -q -q
+-e -e -e -e -e -e -e -e
+-s -s -s -s -s -s -s -s -s -s -s -s -s -s -s -s
+-t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t -t
+-i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i -i
+-h -q -q
+-h -q -e -e
+-h -q -e -s -s
+-h -q -e -s -t -t
+-h -q -e -s -t -i -i

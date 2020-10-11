@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="mdc-layout-grid__cell--span-12">
+
+    <h1>Tablatures</h1>
+    <ul>
+        {% for song in all_songs_list %}
+            <div class="song-entry">
+                <li><a href="{% url 'song_detail' song.pk %}">{{ song.name }} ( {{ song.number_of_measures }} measures) - {{ song.artist.name }}</a></li>
+            </div>
+        {% endfor %}
+    </ul>
+    </div>
+{% endblock content %}

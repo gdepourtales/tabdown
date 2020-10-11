@@ -1,0 +1,24 @@
+header a {
+    color: red;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-left {
+    display: flex;
+    padding-top: 2rem;
+}
+
+#tablature_wrapper {
+    height: 220px;
+    overflow-x: scroll;
+}
+
+#editor {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.16);
+}

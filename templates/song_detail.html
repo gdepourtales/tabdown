@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="mdc-layout-grid__cell--span-12">
+        <p><a href="{%  url 'song_edit' song.pk %}">+ Edit Song</a>
+        <a href="{%  url 'song_gp5' song.pk %}">+ Download GP5</a>
+        <a href="{%  url 'song_delete' song.pk %}">+ Delete Song</a></p>
+    </div>
+
+    <div class="mdc-layout-grid__cell--span-12">
+        <div class="song-entry">
+            <h2>{{ song.name }}</h2>
+            <p>{{ song.artist.name }}</p>
+            <p>{{ song.artist.bass_player }}</p>
+            <input type="hidden" id="id_tablature_source" value="{{ song.tablature_source }}">
+        </div>
+    </div>
+
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="tablature_wrapper">
+            <div id="tablature">
+            </div>
+        </div>
+    </div>
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="tuning"></div>
+    </div>
+    <div class="mdc-layout-grid__cell--span-12">
+        <div id="editor" class="readonly"></div>
+    </div>
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+{% endblock content %}

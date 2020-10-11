@@ -1,0 +1,25 @@
+tempo(q,112) marker(Intro) -w
+3x(1: 0q) -e. 0s
+-s 0s 2e 3e 2: 0e 2e 4e 3: 0e 2s 2: 0s
+-q 0q 0q -e. 0s
+-s 0s 3: 4s_ 2s 4:0e 3:4e 2:0e -s 1: 3s -s 0s 2e
+3x(1:0q) 12e\ -s 0s
+-s 0s 2e 3e 2: 0e 2e 4e 3: 0e 2s 2: 0s
+-q 0q 0q -e. 0s
+-s 0s 3: 4s_ 2s 4:0e 3:4e 2:0e -s 1: 3s -s 0s 2e
+marker(Chorus) |: 3x(1:0q) 12e\ -s 0s
+-s 0s 2e 3e 2: 0e 2e 4e 3: 0e 2s 2: 0s
+-q 0q 0q -e. 0s
+-s 0s 3: 4s_ 2s 4:0e 3:4e 2:0e -s 1: 3s -s 0s 2e
+3x(1:0q) 12e\ -s 0s
+-s 0s 2e 3e 2: 0e 2e 4e 3: 0e 2s 2: 0s
+-q 0q 0q -e. 0s
+-s 0s 3: 4s_ 2s 4:0e 3:4e 2:0e -s 1: 3s -s 0s 2e :|
+marker(Verse) |: 1:0q 0q 0q 0e -s 3:2s
+1:0s 0s 0e 0q 0q 0e 3s 0s
+2:0q 0q 0q 0e -s 1:0s
+2:0q 0q 0e -s 1:0s 2:0e 3:0s_ 2s
+1:0q 0q 0q 0e -s 3:2s
+1:0s 0s 0e 0e -s 0s 0q 0s 0s 3s 0s
+2:0q 0q 0q 0e -s 1:0s
+2:0q 0q 0e -s 1:0s 2:0e 1:12e\ :|

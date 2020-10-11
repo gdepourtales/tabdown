@@ -1,0 +1,60 @@
+grammar TABDOWN
+
+song            <-  tuning _+ measures* newline*                                    %make_song
+
+tuning          <-  "tuning(" tune_note ("," tune_note)+ ")"                        %make_tuning
+
+tune_note       <-  [A-G] "#"? [1-8]
+
+measures        <-  _* measure _* (newline _* measure _*)*
+
+measure         <-  (tempo _+)? (marker _+)? (triplet_feel _+)? (start_repeat _+)? notes (_+ close_repeat)?
+
+
+start_repeat    <- "|:"                                                             %make_start_repeat
+
+close_repeat    <- ":|" ([1-9] [0-9]? "x")?                                         %make_close_repeat
+
+notes           <-  string_number? _* (repeated_notes / note / tied_note / chord / silence) (_+ string_number? _* (repeated_notes / note / tied_note / chord / silence))*   %make_notes
+
+repeated_notes  <-  [1-9] [0-9]? "x(" (note / chord / tied_note / silence ) (_+ (note / tied_note / chord / silence))* ")"                          %make_repeated_notes
+
+chord           <-  "(" (chord_note / chord_tied_note) (_+ (chord_note / chord_tied_note))* ")"                                          %make_chord
+
+chord_note      <-  string_number slide? prebend? grace_fret? "g"? "d"? fret_number note_duration_ext "_"? bend? slide?      %make_chord_note
+
+string_number   <-  [1-9] ":" _*                                                                    %make_string_number
+
+chord_tied_note <-  string_number "_" note_duration_ext slide?                                      %make_chord_tied_note
+
+note            <-  slide? prebend? grace_fret? "g"? "d"? fret_number note_duration_ext "_"? bend? slide?     %make_note
+
+tied_note       <-  "_" note_duration_ext slide?                                                                        %make_tied_note
+
+bend            <-  "b(" ("/\\/" / "/\\" / "/") ")"                                   %make_bend
+
+prebend         <-  "b(" ("/\\" / "/") ")"                                          %make_prebend
+
+slide           <-  [\\/]                                                       %make_slide
+
+silence         <-  "-" note_duration_ext                                           %make_silence
+
+fret_number     <-  [0-9]+
+
+grace_fret      <-  "(" [0-9]+ ")"
+
+tempo           <-  "tempo(" note_duration _* "," tempo_value _* ")"                %make_tempo
+
+triplet_feel    <-  "triplet(" ("e" / "s" / "off") ")"                              %make_triplet_feel
+
+marker          <-  "marker(" [^\n^\r^).]* ")"                                      %make_marker
+
+note_duration_ext <-  note_duration "."? "t"?                                       %make_note_duration_ext
+
+note_duration   <- ("w" / "h" / "q" / "e" / "s" / "t" / "i")
+
+tempo_value     <-  [1-9] [0-9]*
+
+newline         <-  [\r]? [\n]
+
+_               <-  [ \t]                                                           %make_whitespace

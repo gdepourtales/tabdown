@@ -1,0 +1,5 @@
+-w
+marker(in_slides) 2: /2w 1: \1h /2q \3e
+2: /(1)2w 1: \(2)1h /(1)2q \(2)3e
+marker(out slides) 2: 2w\ 1: 1h/ 2q\ 3e/
+2: (1)2w/ 1: (2)1h\ (1)2q/ (2)3e\
